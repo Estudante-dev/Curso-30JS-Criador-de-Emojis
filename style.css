@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-image: url(img/background-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: #f4c531;
+    display: flex;
+    align-items: center;
+  }
+
+  .container {
+    background-color: #ffffff;
+    height: fit-content;
+    width: 25em;
+    border-radius: 0.8em;
+    box-shadow: 0 1.87em 4em rgba(86, 68, 9, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 90%; /* added max-width for responsiveness */
+    padding: 1rem;
+  }
+  
+  .buttons-container {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1em;
+  }
+
+  .btnBaixar {
+    background-color: #ff10d7;
+    color: #fff;
+
+  }
+  
+  button {
+    font-size: 0.9em;
+    margin: 0rem 0.1rem;
+    padding: 0.8em 1em;
+    border-radius: 2em;
+    border: none;
+    background-color: #f4c531;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #dbac1296;
+  }
+  
+  .emoji-container {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+  }
+  .emoji {
+    height: 14.37em;
+    width: 14.37em;
+    background-color: #ffd21f;
+    border-radius: 50%;
+    position: relative;
+    /* box-shadow: 0 1em 1em rgba(86, 68, 9, 0.3); */
+  }
+  .olhos,
+  .sobrancelhas,
+  .boca {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .olhos {
+    top: 5em;
+  }
+  .sobrancelhas {
+    top: 3.12em;
+  }
+  .boca {
+    top: 7.5em;
+  }
