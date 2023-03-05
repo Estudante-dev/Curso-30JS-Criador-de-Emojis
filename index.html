@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criador de Emoji</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="buttons-container">
+        <button onclick="alterarCor()">Cores</button>
+        <button onclick="alterarOlhos()">Olhos</button>
+        <button onclick="alterarSobrancelhas()">Sobrancelhas</button>
+        <button onclick="alterarBoca()">Boca</button>
+      </div>
+      <div class="emoji-container">
+        <div class="emoji">
+          <img src="img/eye-4.svg" class="olhos" />
+          <img src="img/eyebrow-3.svg" class="sobrancelhas" />
+          <img src="img/mouth-4.svg" class="boca" />
+        </div>
+      </div>
+      
+      <button onclick="baixarEmoji()">Baixar</button>
+
+    </div>
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
